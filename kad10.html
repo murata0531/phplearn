@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <h1 style="color:red">課題10 ファイル処理2(ファイルのアップロード)</h1>
+        
+        <p>アップロードするファイルを選択してください</p>
+        
+        <form enctype="multipart/form-data" action="kad10.php" method="post">
+            <input type="hidden" name="MAX-FILE-SIZE" value="2000000">
+            <label><input type="file" name="upfile">
+                <button type="submit" name="sub" value="upload">upload</button></label>
+        </form>
+        
+        <font size="2" color="red">2Mまでのファイルをアップロードできます。</font>
+    </body>
+</html>

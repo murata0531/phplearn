@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!-- was: <?xml version="1.0" encoding="ISO-8859-1"?> -->
+<SHOHIN>
+<CAKE>
+<PHOTO>cake01.jpg</PHOTO>
+<NAME>ブッシュド・ノエル</NAME>
+<PRICE>250</PRICE>
+</CAKE>
+<CAKE>
+<PHOTO>cake02.jpg</PHOTO>
+<NAME>シブースド・ノエル</NAME>
+<PRICE>200</PRICE>
+</CAKE>
+<CAKE>
+<PHOTO>cake03.jpg</PHOTO>
+<NAME>イチゴとシブースドケーキ</NAME>
+<PRICE>400</PRICE>
+</CAKE>
+<CAKE>
+<PHOTO>cake04.jpg</PHOTO>
+<NAME>パウンドケーキ</NAME>
+<PRICE>250</PRICE>
+</CAKE>
+</SHOHIN>

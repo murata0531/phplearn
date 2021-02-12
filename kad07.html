@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>課題07 Formからのデータ受信(POST)</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <h1 style="color:red">課題07 Formからのデータ受信(POST)</h1>
+        
+        <form method="POST" action="kad07.php">
+            
+            <label>名前 : <input type="text" name="name" size="20"> (20文字以内)</label><br>
+            
+            <label>
+             クラス : 
+             <select name="class">
+                 <option value="nk2a">NK2A</option>
+                 <option value="in2A">IN2A</option>
+                 <option value="sk2a">SK2A</option>
+                 <option value="ie2a">IE2A</option>
+                 <option value="ie3a">IE3A</option>
+             </select>
+            </label>
+            
+            <label>No.<input type="text" value="no" size="5" name="no"></label>
+            <br>
+            <label><input type="radio" name="seibetu" value="男性" checked="">男性
+            <input type="radio" name="seibetu" value="女性">女性</label>
+            
+            <label><br>E-Mail : <input type="text" size="20" name="email"></label>
+            
+            <br>
+            <input type="submit" value="送信">
+            <input type="reset" value="取消">
+        </form>
+    </body>
+</html>
